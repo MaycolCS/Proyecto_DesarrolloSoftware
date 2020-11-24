@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E19DC1E6-54A5-FEA0-ADE0-AAECEF4B6EA7" name="viaje">
+<createdBy>mayko</createdBy>
+<createdTime>2020-10-15 12:31:48 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="62F72BB6-D301-523B-A5BF-D3BFAAEA979A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_viaje" id="CA263456-D282-A426-509B-F985C1020A2D">
+<createdBy>mayko</createdBy>
+<createdTime>2020-10-15 12:31:54 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="62F72BB6-D301-523B-A5BF-D3BFAAEA979A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,12,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="placa_vehiculo" id="43B7D380-93B0-5599-273B-401692E1B68B">
+<createdBy>mayko</createdBy>
+<createdTime>2020-10-15 12:38:01 UTC</createdTime>
+<generatorID>B7AA50D2-9632-D14E-AD79-44AE5AD67951</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="62F72BB6-D301-523B-A5BF-D3BFAAEA979A" value="true"/>
+</engineerTo>
+<referedAttribute>3FCF61A7-C2CD-7BC4-6CBC-F21004626A32</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_recorrido" id="7554E8FC-154D-49AD-D423-6FDB87A9FDBA">
+<createdBy>mayko</createdBy>
+<createdTime>2020-10-15 12:37:25 UTC</createdTime>
+<generatorID>9CD26BA6-A409-C96D-BFF2-055BB1813127</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="62F72BB6-D301-523B-A5BF-D3BFAAEA979A" value="true"/>
+</engineerTo>
+<referedAttribute>E72FD673-F4AF-B29B-BCF0-C8021224A0FD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_viaje" id="F2D25A12-25F7-543B-25CB-3B8F59FEC8C7">
+<createdBy>mayko</createdBy>
+<createdTime>2020-10-15 12:32:08 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="62F72BB6-D301-523B-A5BF-D3BFAAEA979A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="jornada_viaje" id="D01763C1-B4F7-F747-B138-CE75C46F9ECC">
+<createdBy>mayko</createdBy>
+<createdTime>2020-10-15 12:40:53 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="62F72BB6-D301-523B-A5BF-D3BFAAEA979A" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>96636237-F0AC-2400-6ACF-4019E9071204</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nota_viaje" id="9531F651-3288-1214-9039-3864E8F8523E">
+<createdBy>mayko</createdBy>
+<createdTime>2020-10-15 12:39:13 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="62F72BB6-D301-523B-A5BF-D3BFAAEA979A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7610FCB5-A0CB-E60B-1B9B-4EA75C49FFFD" name="viaje PK">
+<createdBy>mayko</createdBy>
+<createdTime>2020-10-15 12:32:07 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="62F72BB6-D301-523B-A5BF-D3BFAAEA979A" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CA263456-D282-A426-509B-F985C1020A2D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

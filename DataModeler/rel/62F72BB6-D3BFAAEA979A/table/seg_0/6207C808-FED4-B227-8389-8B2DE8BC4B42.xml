@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6207C808-FED4-B227-8389-8B2DE8BC4B42" name="tanqueada">
+<createdBy>mayko</createdBy>
+<createdTime>2020-10-21 21:19:18 UTC</createdTime>
+<generatorID>063D967C-1C13-0D0D-8C74-12F3669B1F32</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_tanqueada" id="CFFBDBE2-66AE-53AC-A83D-5D22DFCE6253">
+<createdBy>mayko</createdBy>
+<createdTime>2020-10-21 21:19:18 UTC</createdTime>
+<generatorID>FD856C83-DC90-3153-C1F1-8EA73C670A6E</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,11,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vehiculo_placa_vehiculo" id="3745FE32-FE92-C9F2-7737-BC6D1943B621">
+<createdBy>mayko</createdBy>
+<createdTime>2020-10-21 21:19:18 UTC</createdTime>
+<generatorID>4958F1FC-89B5-3345-7240-EF4BF698A4D9</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="375EC266-0336-F8A4-2D2B-1EB83F747765" referredColumn="7B6D499C-717D-2CF7-4C06-A8F1BD88BDA3"/>
+</associations>
+</Column>
+<Column name="recibo_tanqueada" id="2B2C3935-A01F-35A5-775C-9B1541CC4BAA">
+<createdBy>mayko</createdBy>
+<createdTime>2020-10-21 21:19:18 UTC</createdTime>
+<generatorID>9C151493-2576-3506-BAD1-2EC73573C143</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_tanqueada" id="FABB7FAC-E879-F001-23F9-670E02B99624">
+<createdBy>mayko</createdBy>
+<createdTime>2020-10-21 21:19:18 UTC</createdTime>
+<generatorID>EA939E03-0F3B-1779-A28B-BCC5892622B7</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor_tanqueada" id="43C02C7B-1627-0FC1-C6EB-E1EA8E95FE3E">
+<createdBy>mayko</createdBy>
+<createdTime>2020-10-21 21:19:18 UTC</createdTime>
+<generatorID>4B736E99-0010-714A-DEFD-243F7F347139</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="galones_tanqueada" id="50B39C21-619F-8A0F-6E59-5FA556F88DF7">
+<createdBy>mayko</createdBy>
+<createdTime>2020-10-21 21:19:18 UTC</createdTime>
+<generatorID>D6CE4AAC-526D-9B3E-E2DB-56B2AF2F5065</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nota_tanqueada" id="154B1F25-8D38-5388-851A-40748587C8DE">
+<createdBy>mayko</createdBy>
+<createdTime>2020-10-21 21:19:18 UTC</createdTime>
+<generatorID>C968DBF5-3931-AD20-FA60-89BE8F41FA6D</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F593A037-D677-DFBA-9E0E-EFC3171C8D2C" name="tanqueada_PK">
+<createdBy>mayko</createdBy>
+<createdTime>2020-10-21 21:19:18 UTC</createdTime>
+<generatorID>04C20FA0-63EA-2712-C4F8-EE79049E1FF9</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CFFBDBE2-66AE-53AC-A83D-5D22DFCE6253"/>
+<colUsage columnID="3745FE32-FE92-C9F2-7737-BC6D1943B621"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1384D84E-78F3-7D80-6603-10F679EE32EE" name="tanqueada_vehiculo_FK">
+<createdBy>mayko</createdBy>
+<createdTime>2020-10-21 21:19:18 UTC</createdTime>
+<generatorID>439F367D-762F-A5C9-CE7B-69D2D9B78597</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3745FE32-FE92-C9F2-7737-BC6D1943B621"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="063D967C-1C13-0D0D-8C74-12F3669B1F32" name="tanqueada">
+<createdBy>mayko</createdBy>
+<createdTime>2020-10-21 21:13:38 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="62F72BB6-D301-523B-A5BF-D3BFAAEA979A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_tanqueada" id="FD856C83-DC90-3153-C1F1-8EA73C670A6E">
+<createdBy>mayko</createdBy>
+<createdTime>2020-10-21 21:13:43 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="62F72BB6-D301-523B-A5BF-D3BFAAEA979A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,11,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="placa_vehiculo" id="4958F1FC-89B5-3345-7240-EF4BF698A4D9">
+<createdBy>mayko</createdBy>
+<createdTime>2020-10-21 21:14:53 UTC</createdTime>
+<generatorID>439F367D-762F-A5C9-CE7B-69D2D9B78597</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="62F72BB6-D301-523B-A5BF-D3BFAAEA979A" value="true"/>
+</engineerTo>
+<referedAttribute>3FCF61A7-C2CD-7BC4-6CBC-F21004626A32</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="recibo_tanqueada" id="9C151493-2576-3506-BAD1-2EC73573C143">
+<createdBy>mayko</createdBy>
+<createdTime>2020-10-21 21:16:01 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="62F72BB6-D301-523B-A5BF-D3BFAAEA979A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_tanqueada" id="EA939E03-0F3B-1779-A28B-BCC5892622B7">
+<createdBy>mayko</createdBy>
+<createdTime>2020-10-21 21:16:26 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="62F72BB6-D301-523B-A5BF-D3BFAAEA979A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor_tanqueada" id="4B736E99-0010-714A-DEFD-243F7F347139">
+<createdBy>mayko</createdBy>
+<createdTime>2020-10-21 21:16:35 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="62F72BB6-D301-523B-A5BF-D3BFAAEA979A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="galones_tanqueada" id="D6CE4AAC-526D-9B3E-E2DB-56B2AF2F5065">
+<createdBy>mayko</createdBy>
+<createdTime>2020-10-21 21:16:49 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="62F72BB6-D301-523B-A5BF-D3BFAAEA979A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nota_tanqueada" id="C968DBF5-3931-AD20-FA60-89BE8F41FA6D">
+<createdBy>mayko</createdBy>
+<createdTime>2020-10-21 21:17:03 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="62F72BB6-D301-523B-A5BF-D3BFAAEA979A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="04C20FA0-63EA-2712-C4F8-EE79049E1FF9" name="tanqueada PK">
+<createdBy>mayko</createdBy>
+<createdTime>2020-10-21 21:14:02 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="62F72BB6-D301-523B-A5BF-D3BFAAEA979A" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FD856C83-DC90-3153-C1F1-8EA73C670A6E</attributeRef>
+<attributeRef>4958F1FC-89B5-3345-7240-EF4BF698A4D9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

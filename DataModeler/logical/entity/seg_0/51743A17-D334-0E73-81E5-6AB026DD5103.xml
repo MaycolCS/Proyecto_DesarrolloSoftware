@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="51743A17-D334-0E73-81E5-6AB026DD5103" name="vehiculo">
+<createdBy>mayko</createdBy>
+<createdTime>2020-10-15 12:16:22 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="62F72BB6-D301-523B-A5BF-D3BFAAEA979A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="placa_vehiculo" id="3FCF61A7-C2CD-7BC4-6CBC-F21004626A32">
+<createdBy>mayko</createdBy>
+<createdTime>2020-10-15 12:16:29 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="62F72BB6-D301-523B-A5BF-D3BFAAEA979A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numInterno_vehiculo" id="38D3A126-288C-3989-DE13-900179C0B41B">
+<createdBy>mayko</createdBy>
+<createdTime>2020-10-15 12:16:44 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="62F72BB6-D301-523B-A5BF-D3BFAAEA979A" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<domain>571B7ADF-2B2C-93A9-A10B-7B152B3916BD</domain>
+<ownDataTypeParameters>,3,2</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>300</beginValue>
+<endValue>700</endValue>
+</rangeDef>
+</listOfRanges>
+</Attribute>
+<Attribute name="cedula_usuario" id="187CE9C6-FD5C-2288-735B-180B9809CFF2">
+<createdBy>mayko</createdBy>
+<createdTime>2020-10-15 12:18:40 UTC</createdTime>
+<generatorID>5692297C-EDD7-A5D2-2D8E-A8F19DD46ABC</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="62F72BB6-D301-523B-A5BF-D3BFAAEA979A" value="true"/>
+</engineerTo>
+<referedAttribute>E3253591-7AB8-AD59-4126-BD54D6B299FC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="soat_vehiculo" id="4B5FEC7E-F86B-3B39-7DA5-3F0F7060C65E">
+<createdBy>mayko</createdBy>
+<createdTime>2020-10-21 21:09:16 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="62F72BB6-D301-523B-A5BF-D3BFAAEA979A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tecno_vehiculo" id="E687996A-FBD4-63D5-DF69-0A511D10FD03">
+<createdBy>mayko</createdBy>
+<createdTime>2020-10-21 21:09:43 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="62F72BB6-D301-523B-A5BF-D3BFAAEA979A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="actual_vehiculo" id="5B25C114-D8EC-2387-6816-998FC6452831">
+<createdBy>mayko</createdBy>
+<createdTime>2020-10-21 21:09:52 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="62F72BB6-D301-523B-A5BF-D3BFAAEA979A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="contractual_vehiculo" id="03DE10BD-5522-8785-A65C-036B4743E088">
+<createdBy>mayko</createdBy>
+<createdTime>2020-10-21 21:10:02 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="62F72BB6-D301-523B-A5BF-D3BFAAEA979A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DA86339E-A6F5-BDC0-BB0E-CF8DE6A01A57" name="vehiculo PK">
+<createdBy>mayko</createdBy>
+<createdTime>2020-10-15 12:16:42 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="62F72BB6-D301-523B-A5BF-D3BFAAEA979A" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3FCF61A7-C2CD-7BC4-6CBC-F21004626A32</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

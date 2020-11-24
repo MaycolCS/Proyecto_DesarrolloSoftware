@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="RECVIA" directorySegmentName="seg_0" id="9CD26BA6-A409-C96D-BFF2-055BB1813127">
+<createdBy>mayko</createdBy>
+<createdTime>2020-10-15 12:37:25 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="62F72BB6-D301-523B-A5BF-D3BFAAEA979A" value="true"/>
+</engineerTo>
+<sourcePk>EAD5F57C-206F-B78C-ABD4-7F050D416145</sourcePk>
+<targetPk>7610FCB5-A0CB-E60B-1B9B-4EA75C49FFFD</targetPk>
+<identifying>false</identifying>
+<nameOnSource>Recorrido</nameOnSource>
+<nameOnTarget>Recorrido</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>80AB72BF-7CAE-9894-B619-E40E452D075C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E19DC1E6-54A5-FEA0-ADE0-AAECEF4B6EA7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

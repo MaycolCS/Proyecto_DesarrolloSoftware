@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="28C74A44-10FD-FFDC-F975-F00E2E82E9DE" name="vehiculo">
+<createdBy>mayko</createdBy>
+<createdTime>2020-10-15 12:45:03 UTC</createdTime>
+<generatorID>51743A17-D334-0E73-81E5-6AB026DD5103</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="placa_vehiculo" id="7B6D499C-717D-2CF7-4C06-A8F1BD88BDA3">
+<createdBy>mayko</createdBy>
+<createdTime>2020-10-15 12:45:03 UTC</createdTime>
+<generatorID>3FCF61A7-C2CD-7BC4-6CBC-F21004626A32</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numInterno_vehiculo" id="4385BF4E-CF99-8303-152D-FED94203C19E">
+<createdBy>mayko</createdBy>
+<createdTime>2020-10-15 12:45:03 UTC</createdTime>
+<generatorID>38D3A126-288C-3989-DE13-900179C0B41B</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<domain>571B7ADF-2B2C-93A9-A10B-7B152B3916BD</domain>
+<ownDataTypeParameters>,3,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>300</beginValue>
+<endValue>700</endValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="usuario_cedula_usuario" id="F1F1E8D1-45C0-7323-96FD-C05DEF5094BD">
+<createdBy>mayko</createdBy>
+<createdTime>2020-10-15 12:45:03 UTC</createdTime>
+<generatorID>187CE9C6-FD5C-2288-735B-180B9809CFF2</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,12,2</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0DC3EA72-8F38-1ABA-760C-905EDEA93FCC" referredColumn="8A6628AC-3F76-7E1F-5332-095601219FBF"/>
+</associations>
+</Column>
+<Column name="soat_vehiculo" id="E298A90C-2AA5-4B2B-1BC3-904680864907">
+<createdBy>mayko</createdBy>
+<createdTime>2020-10-21 21:19:18 UTC</createdTime>
+<generatorID>4B5FEC7E-F86B-3B39-7DA5-3F0F7060C65E</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tecno_vehiculo" id="4DA7942E-527D-3789-B6D8-51C2CD84B74C">
+<createdBy>mayko</createdBy>
+<createdTime>2020-10-21 21:19:18 UTC</createdTime>
+<generatorID>E687996A-FBD4-63D5-DF69-0A511D10FD03</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="actual_vehiculo" id="227FED95-3172-54BE-7BCE-665B20429D62">
+<createdBy>mayko</createdBy>
+<createdTime>2020-10-21 21:19:18 UTC</createdTime>
+<generatorID>5B25C114-D8EC-2387-6816-998FC6452831</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="contractual_vehiculo" id="1A9626B1-11F2-5B6A-6BE9-CE1A3D312189">
+<createdBy>mayko</createdBy>
+<createdTime>2020-10-21 21:19:18 UTC</createdTime>
+<generatorID>03DE10BD-5522-8785-A65C-036B4743E088</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="891D2D17-2C74-CE66-4F81-C5ED2EBD40CD" name="vehiculo_PK">
+<createdBy>mayko</createdBy>
+<createdTime>2020-10-15 12:45:03 UTC</createdTime>
+<generatorID>DA86339E-A6F5-BDC0-BB0E-CF8DE6A01A57</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7B6D499C-717D-2CF7-4C06-A8F1BD88BDA3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C6B8B792-7590-782B-1FBF-77CE23B741EE" name="vehiculo__IDX">
+<createdBy>mayko</createdBy>
+<createdTime>2020-10-15 12:45:03 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>5692297C-EDD7-A5D2-2D8E-A8F19DD46ABC</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="F1F1E8D1-45C0-7323-96FD-C05DEF5094BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A8393168-F763-3054-BC03-E04FA16C0ECB" name="vehiculo_usuario_FK">
+<createdBy>mayko</createdBy>
+<createdTime>2020-10-15 12:45:03 UTC</createdTime>
+<generatorID>5692297C-EDD7-A5D2-2D8E-A8F19DD46ABC</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F1F1E8D1-45C0-7323-96FD-C05DEF5094BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

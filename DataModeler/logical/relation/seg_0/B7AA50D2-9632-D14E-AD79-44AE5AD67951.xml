@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="VEHVIA" directorySegmentName="seg_0" id="B7AA50D2-9632-D14E-AD79-44AE5AD67951">
+<createdBy>mayko</createdBy>
+<createdTime>2020-10-15 12:38:01 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="62F72BB6-D301-523B-A5BF-D3BFAAEA979A" value="true"/>
+</engineerTo>
+<sourcePk>DA86339E-A6F5-BDC0-BB0E-CF8DE6A01A57</sourcePk>
+<targetPk>7610FCB5-A0CB-E60B-1B9B-4EA75C49FFFD</targetPk>
+<identifying>false</identifying>
+<nameOnSource>Vehiculo</nameOnSource>
+<nameOnTarget>Vehiculo</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>51743A17-D334-0E73-81E5-6AB026DD5103</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E19DC1E6-54A5-FEA0-ADE0-AAECEF4B6EA7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

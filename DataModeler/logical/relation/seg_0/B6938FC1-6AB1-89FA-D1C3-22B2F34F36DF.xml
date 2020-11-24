@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="EMPREC" directorySegmentName="seg_0" id="B6938FC1-6AB1-89FA-D1C3-22B2F34F36DF">
+<createdBy>mayko</createdBy>
+<createdTime>2020-10-15 12:30:58 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="62F72BB6-D301-523B-A5BF-D3BFAAEA979A" value="true"/>
+</engineerTo>
+<sourcePk>170467AB-99B3-D82A-AD9E-A91E5CA12024</sourcePk>
+<targetPk>EAD5F57C-206F-B78C-ABD4-7F050D416145</targetPk>
+<identifying>false</identifying>
+<nameOnSource>Empresa</nameOnSource>
+<nameOnTarget>Empresa</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F197CBB9-AFBB-6630-37D8-C186F89F50C0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>80AB72BF-7CAE-9894-B619-E40E452D075C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

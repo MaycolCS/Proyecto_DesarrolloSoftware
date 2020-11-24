@@ -1,0 +1,128 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9A379EBD-1853-2210-0B1E-AF15754EDE23" name="viaje">
+<createdBy>mayko</createdBy>
+<createdTime>2020-10-15 12:45:03 UTC</createdTime>
+<generatorID>E19DC1E6-54A5-FEA0-ADE0-AAECEF4B6EA7</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_viaje" id="E87F5782-58E3-95D1-E3D5-6D2B6AEC2D7F">
+<createdBy>mayko</createdBy>
+<createdTime>2020-10-15 12:45:03 UTC</createdTime>
+<generatorID>CA263456-D282-A426-509B-F985C1020A2D</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,12,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_viaje" id="79522BCF-85AF-BEA6-8B9E-743E4646673B">
+<createdBy>mayko</createdBy>
+<createdTime>2020-10-15 12:45:03 UTC</createdTime>
+<generatorID>F2D25A12-25F7-543B-25CB-3B8F59FEC8C7</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="recorrido_id_recorrido" id="8E586620-A04E-12AB-BEFE-6C6BAE7BC671">
+<createdBy>mayko</createdBy>
+<createdTime>2020-10-15 12:45:03 UTC</createdTime>
+<generatorID>7554E8FC-154D-49AD-D423-6FDB87A9FDBA</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,12,2</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0A48E5F2-51F9-5795-4AE5-72A35CE6DCD8" referredColumn="F0B5B1D6-25BF-4606-F4A7-E5846663FAB6"/>
+</associations>
+</Column>
+<Column name="vehiculo_placa_vehiculo" id="BD90BEE7-1746-9FD8-EAFF-5D7B359A5A1D">
+<createdBy>mayko</createdBy>
+<createdTime>2020-10-15 12:45:03 UTC</createdTime>
+<generatorID>43B7D380-93B0-5599-273B-401692E1B68B</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ECA4F87A-F726-ECE5-25C6-7C25FB9EE31D" referredColumn="7B6D499C-717D-2CF7-4C06-A8F1BD88BDA3"/>
+</associations>
+</Column>
+<Column name="nota_viaje" id="E7441AE0-8B85-99FC-2F2E-6A3A687558A1">
+<createdBy>mayko</createdBy>
+<createdTime>2020-10-15 12:45:03 UTC</createdTime>
+<generatorID>9531F651-3288-1214-9039-3864E8F8523E</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500</dataTypeSize>
+<ownDataTypeParameters>500,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="jornada_viaje" id="9945FC14-A912-53E7-5984-353F8F67361C">
+<createdBy>mayko</createdBy>
+<createdTime>2020-10-15 12:45:03 UTC</createdTime>
+<generatorID>D01763C1-B4F7-F747-B138-CE75C46F9ECC</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>96636237-F0AC-2400-6ACF-4019E9071204</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BD6111B6-729A-050B-1DF3-22BB016FCF9D" name="viaje_PK">
+<createdBy>mayko</createdBy>
+<createdTime>2020-10-15 12:45:03 UTC</createdTime>
+<generatorID>7610FCB5-A0CB-E60B-1B9B-4EA75C49FFFD</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E87F5782-58E3-95D1-E3D5-6D2B6AEC2D7F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="71E6C6EC-0651-9180-BEDD-C03463921EE8" name="viaje_recorrido_FK">
+<createdBy>mayko</createdBy>
+<createdTime>2020-10-15 12:45:03 UTC</createdTime>
+<generatorID>9CD26BA6-A409-C96D-BFF2-055BB1813127</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8E586620-A04E-12AB-BEFE-6C6BAE7BC671"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A853F34E-7744-B137-7C5F-46A648F60603" name="viaje_vehiculo_FK">
+<createdBy>mayko</createdBy>
+<createdTime>2020-10-15 12:45:03 UTC</createdTime>
+<generatorID>B7AA50D2-9632-D14E-AD79-44AE5AD67951</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD90BEE7-1746-9FD8-EAFF-5D7B359A5A1D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

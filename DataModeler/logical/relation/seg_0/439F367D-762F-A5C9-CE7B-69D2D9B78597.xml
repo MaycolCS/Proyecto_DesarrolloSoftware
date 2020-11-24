@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="VEHTAN" directorySegmentName="seg_0" id="439F367D-762F-A5C9-CE7B-69D2D9B78597">
+<createdBy>mayko</createdBy>
+<createdTime>2020-10-21 21:14:53 UTC</createdTime>
+<ownerDesignName>DataModeler</ownerDesignName>
+<engineerTo>
+<item key="62F72BB6-D301-523B-A5BF-D3BFAAEA979A" value="true"/>
+</engineerTo>
+<sourcePk>DA86339E-A6F5-BDC0-BB0E-CF8DE6A01A57</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>placa_vehiculo</nameOnSource>
+<nameOnTarget>vehiculo</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>51743A17-D334-0E73-81E5-6AB026DD5103</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>063D967C-1C13-0D0D-8C74-12F3669B1F32</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="921042BC-D3B8-3A40-0E25-AA91F06E8B37" name="empresa">
+<createdBy>mayko</createdBy>
+<createdTime>2020-10-15 12:45:02 UTC</createdTime>
+<generatorID>F197CBB9-AFBB-6630-37D8-C186F89F50C0</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nit_empresa" id="1C68F960-3899-5A29-70B0-5958397206DC">
+<createdBy>mayko</createdBy>
+<createdTime>2020-10-15 12:45:02 UTC</createdTime>
+<generatorID>83038B97-96CB-C2CE-1086-9F7010C11E6A</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,15,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_empresa" id="A5FF4983-593A-D60B-3EA6-65A2FD513985">
+<createdBy>mayko</createdBy>
+<createdTime>2020-10-15 12:45:02 UTC</createdTime>
+<generatorID>6499592E-F7C7-2CCE-F93A-B8CDCE34AE27</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ciudad_empresa" id="C58CD90B-9A99-9FD8-ACCA-53B0ABBEE0A8">
+<createdBy>mayko</createdBy>
+<createdTime>2020-10-15 12:45:02 UTC</createdTime>
+<generatorID>EF34C373-51EA-496E-E073-E0086EE98EE6</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="093C1104-4A52-DD27-F4BC-4C363B962A1A" name="empresa_PK">
+<createdBy>mayko</createdBy>
+<createdTime>2020-10-15 12:45:02 UTC</createdTime>
+<generatorID>170467AB-99B3-D82A-AD9E-A91E5CA12024</generatorID>
+<ownerDesignName>DataModeler</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1C68F960-3899-5A29-70B0-5958397206DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
